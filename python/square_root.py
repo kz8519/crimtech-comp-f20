@@ -1,7 +1,6 @@
 import math
 
 def square_root(n):
-    # Your code here!
     try:
         return math.sqrt(n)
     except:

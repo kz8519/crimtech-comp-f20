@@ -1,7 +1,6 @@
 import itertools
 
 def sum(lst, n):
-    # Your code here!
     s = set({})
 
     for i in range(len(lst) - 1):

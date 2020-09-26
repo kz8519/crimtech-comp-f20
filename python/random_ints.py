@@ -1,7 +1,6 @@
 import random
 
 def random_ints():
-    # Your code here!
     l = []
     x = 0
     while(x != 6):
