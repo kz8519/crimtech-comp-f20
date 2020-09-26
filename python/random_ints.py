@@ -3,6 +3,10 @@ import random
 def random_ints():
     # Your code here!
     l = []
+    x = 0
+    while(x != 6):
+        x = (int) (random.random() * 10 + 1)
+        l.append(x)
     return l
 
 def test():

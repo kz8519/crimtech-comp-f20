@@ -1,6 +1,15 @@
+import itertools
+
 def sum(lst, n):
     # Your code here!
-    return False
+    s = set({})
+
+    for i in range(len(lst) - 1):
+        for j in range(i + 1,len(lst)):
+            s.add(lst[i]+lst[j])
+
+
+    return (n in s)
 
 def test():
     assert sum([-1, 1], 0)

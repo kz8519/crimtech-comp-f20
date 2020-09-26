@@ -1,5 +1,12 @@
 def rm_smallest(d):
     # Your code here!
+    if (bool(d)):
+        min_val = min(d.values())
+        keys = d.keys()
+        for x in keys:
+            if d[x] == min_val:
+                del d[x]
+                break
     return d
 
 def test():
